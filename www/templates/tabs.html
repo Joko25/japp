@@ -1,0 +1,30 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-nav-bar class="bar-positive">
+  <ion-nav-back-button>
+  </ion-nav-back-button>
+</ion-nav-bar>
+<ion-tabs class="tabs-icon-top tabs-color-active-positive positive">
+  <!-- Dashboard Tab -->
+  <ion-tab title="Dashboard" icon-off="ion-speedometer" icon-on="ion-speedometer" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Chats Tab -->
+  <ion-tab title="Chats" icon-off="ion-chatbox" icon-on="ion-chatbox-working" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Account Tab -->
+  <ion-tab title="Account" icon-off="ion-gear-a" icon-on="ion-gear-b" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view> 
+  </ion-tab>
+</ion-tabs>
+  <nav mfb-menu position="br" effect="zoomin" label="Menu"
+     active-icon="ion-close" resting-icon="ion-navicon-round"
+     toggling-method="click">
+  <button mfb-button icon="ion-plus" label="Add"></button>
+</nav>

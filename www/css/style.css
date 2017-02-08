@@ -1,0 +1,38 @@
+/* Empty. Add your own CSS if you like */
+body {
+  /*cursor: url('http://ionicframework.com/img/finger.png'), auto;*/
+}
+
+.scroll-content{
+ background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.item .item-input {
+ 	border-top: none;   
+}
+
+.trns{
+	background-color: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.trnsbar{
+	background-color: transparent;
+}
+
+.logoimg {
+ background: url(../img/iconv.png) no-repeat center center fixed; 
+}
+/*.item-input{
+	background-color: transparent;
+	color: blue;
+    border: none;
+    outline:none;
+    transition:height 1s;
+    -webkit-transition:height 1s;
+}*/

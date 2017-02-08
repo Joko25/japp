@@ -1,0 +1,16 @@
+<ion-view>
+   <ion-content align='center' class="padding calm">
+      <img ng-src="{{face}}">
+      <h1></h1>
+      <div class="list list-inset trns">
+          <label class="item item-input trns">
+              <input type="text" placeholder="Username" ng-model="data.username">
+          </label>
+          <label class="item item-input trns">
+              <input type="password" placeholder="Password" ng-model="data.password">
+          </label>
+      </div>
+      <button class="button button-block button-calm" ng-click="login()">Login</button>
+<!--       <ion-spinner icon="ripple"></ion-spinner> -->
+  </ion-content>
+</ion-view>
